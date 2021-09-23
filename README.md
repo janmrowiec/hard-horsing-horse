@@ -1,2 +1,9 @@
-# hard-working-horse
-simple &amp; funny to do app in the browser to help you make daily tasks done
+## hard horsing horse
+
+An extremely simple & funny app created using html, css and vanilla js. 
+
+>Designed as a to-do list.
+
+You can reach it here: [get on the horse](https://janmrowiec.github.io/hard-horsing-horse/).
+
+Keep horsing no matter what!
