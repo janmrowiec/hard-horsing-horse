@@ -19,3 +19,12 @@ html {
     width: 300px;
     height: auto;
 }
+
+.horse_head {
+    width: 26px;
+    height: 26px;
+}
+
+.list a {
+    color: white;
+}
