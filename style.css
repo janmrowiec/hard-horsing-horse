@@ -16,15 +16,25 @@ html {
 }
 
 .meme img {
-    width: 300px;
-    height: auto;
+    width: 320px;
+    height: 260px;
 }
 
 .horse_head {
-    width: 26px;
-    height: 26px;
+    width: 25px;
+    height: 25px;
 }
 
 .list a {
     color: white;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 180%;
+}
+
+.clear_all {
+    position: relative;
+    left: 260px;
 }
