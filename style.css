@@ -14,3 +14,8 @@ html {
     margin: auto;
     font-family: 'Gemunu Libre';
 }
+
+.meme img {
+    width: 300px;
+    height: auto;
+}
