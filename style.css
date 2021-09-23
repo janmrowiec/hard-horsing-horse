@@ -38,3 +38,8 @@ button, input, select, textarea {
     position: relative;
     left: 260px;
 }
+
+.legend p {
+    color: #222;
+    font-size: smaller;
+}
