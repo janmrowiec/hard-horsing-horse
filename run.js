@@ -1,6 +1,11 @@
+// selectors
+
 document.querySelector('form').addEventListener('submit', handleSubmit);
-// document.querySelector('ul').addEventListener('click', handleDoneOrRemove);
-// document.getElementById('clear').addEventListener('click', handleClear);
+document.querySelector('ul').addEventListener('click', handleFinishOrRemove);
+document.getElementById('clear').addEventListener('click', handleClearList);
+
+
+// event handlers 
 
 function handleSubmit(element) {
 	element.preventDefault();
@@ -8,6 +13,19 @@ function handleSubmit(element) {
 	if (input.value != '')
 		addTask(input.value);
 }
+
+
+function handleClearList(e) {
+	document.querySelector('ul').innerHTML = '';
+}
+
+function handleFinishOrRemove(argument) {
+	// body...
+}
+
+
+
+// helpers
 
 function addTask(task) {
 	let form = document.createElement('form');
@@ -18,4 +36,12 @@ function addTask(task) {
 
     document.querySelector('input').value = ''
     document.getElementById('list').appendChild(form);
+}
+
+function finishTask(argument) {
+	// body...
+}
+
+function removeTask(argument) {
+	// body...
 }
